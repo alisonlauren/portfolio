@@ -1,504 +1,522 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 <head>
 <meta name="author" content="">
-<meta name="description" content="">
+<meta name="theme-color" content="#c70039">
+<meta name="description" content="Toing – Creative Portfolio HTML Template">
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>:: Toing – Creative Portfolio HTML Template Documentation ::</title>
 
-<link href="css/font-awesome.min.css" rel="stylesheet">
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/main.css" rel="stylesheet">
-<link rel="icon" href="img/favicon.png">
+<!-- Page Title -->
+<title>Toing – Creative Portfolio HTML Template</title>
 
-<!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800&display=swap" rel="stylesheet">
+<!-- Favicon Icon -->
+<link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+<!-- Start Stylesheet -->
+<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+<link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+<link href="assets/css/flaticon-set.css" rel="stylesheet" />
+<link href="assets/css/magnific-popup.css" rel="stylesheet" />
+<link href="assets/css/owl.carousel.min.css" rel="stylesheet" />
+<link href="assets/css/owl.theme.default.min.css" rel="stylesheet" />
+<link href="assets/css/animate.css" rel="stylesheet" />
+<link href="assets/css/bootsnav.css" rel="stylesheet" />
+<link href="assets/css/style.css" rel="stylesheet">
+<link href="assets/css/responsive.css" rel="stylesheet" />
+
+<!-- Google Web Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800" rel="stylesheet">
 </head>
 
 <body>
-<div id="wrapper"> 
-  <div id="sidebar-wrapper">
-    <ul class="sidebar-nav">
-      <li class="sidebar-brand"><a href="index.html"><img src="img/logo-white.png"></a></li>      
-      <li><a href="#Overview">Page Overview</a></li>
-      <li><a href="#Css_Structure">CSS Structure</a></li>
-      <li><a href="#Html_Structure">HTML Structure</a></li>
-	  <li><a href="#Footer_Structure">Footer Structure</a></li>  	
-      <li><a href="#JScript">Javascript Intialization</a></li>
-      <li><a href="#Source_Credits">Source Credits</a></li>      
-    </ul>
-    <div class="copy-rights"><span>Copyright © 2020 All Rights Reserved.</div>
-  </div>
-  
-  <div id="page-content-wrapper">
-    <div class="content-header"> <a id="menu-toggle" href="#" class="btn btn-default"> <span class="fa fa-bars"></span> </a></div>
-    <div class="page-content inset">      
-		<div class="col-md-12">
-		  <h3>Toing Documentation</h3>		  
-		  <p class="page_description">
-			Thank you for your purchase! If you have any questions feel free to ask me through comment section on ThemeForest.<br>
-			For questions on basic HTML, JavaScript or CSS editing - please give your question a quick Google or visit W3Schools as theme issues get top priority. You will need some knowledge of HTML/CSS to edit this theme.
-		  </p><br>            
-		</div>              
+
+<!-- Header -->
+<header id="home"> 
+  <!-- Start Navigation -->
+  <nav class="navbar navbar-default navbar-fixed white no-background bootsnav">
+    <div class="container"> 
+      <!-- Start Header Navigation -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu"> <i class="fa fa-bars"></i> </button>
+        <a class="navbar-brand" href="index.html"> 
+			<img src="assets/img/logo-light.png" class="logo logo-display" alt="Logo"> 
+			<img src="assets/img/logo-dark.png" class="logo logo-scrolled" alt="Logo"> 
+		</a> 
+	  </div>
+      <!-- End Header Navigation --> 
       
-      <div class="col-md-12" id="Overview">
-        <div class="margin-bottom-60">
-          <h3>Page Head :-</h3>
-          <p>Page head contains Title, Metadata, Favicon and CSS.</p><br>
-          <pre>
-&lt;!DOCTYPE html&gt;
-&lt;html lang="zxx"&gt;
-&lt;head&gt;
-&lt;meta name="author" content=""&gt;
-&lt;meta name="theme-color" content="#058283"&gt;
-&lt;meta name="description" content="<span style='color:#e6033c;'>Toing – Creative Portfolio HTML Template</span>"&gt;
-&lt;meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/&gt;
-&lt;meta name="viewport" content="<span style='color:#e6033c;'>width=device-width, initial-scale=1.0</span>"&gt;
+      <div class="collapse navbar-collapse" id="navbar-menu">
+        <ul class="nav navbar-nav navbar-right" data-in="#" data-out="#">
+          <li class="dropdown"> <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Home</a>
+            <ul class="dropdown-menu">
+              <li><a class="active" href="index.html">Home Demo One</a></li>
+              <li><a href="index-2.html">Home Demo Two</a></li>
+              <li><a href="index-3.html">Home Demo Three</a></li>
+              <li><a href="index-4.html">Home Demo Four</a></li>              
+            </ul>
+          </li>
+          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio</a>
+            <ul class="dropdown-menu">
+              <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio Grid</a>
+                <ul class="dropdown-menu">
+                  <li><a href="portfolio-grid-2-colum.html">Portfolio Grid 2 Colum</a></li>
+                  <li><a href="portfolio-grid-2-colum-full-width.html">Portfolio 2 Colum Full Width</a></li>
+                  <li><a href="portfolio-grid-3-colum.html">Portfolio Grid 3 Colum</a></li>
+                  <li><a href="portfolio-grid-3-colum-full-width.html">Portfolio 3 Colum Full Width</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio Masonary</a>
+                <ul class="dropdown-menu">
+                  <li><a href="portfolio-masonary-2-colum.html">Portfolio 2 Colum</a></li>
+                  <li><a href="portfolio-masonary-3-colum.html">Portfolio 3 Colum</a></li>
+                  <li><a href="portfolio-masonary-4-colum.html">Portfolio 4 Colum</a></li>
+                  <li><a href="portfolio-masonary-4-colum-full-width.html">4 Colum Full Width</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio Mixed</a>
+                <ul class="dropdown-menu">
+                  <li><a href="portfolio-mixed-colum.html">Portfolio Mixed Style One</a></li>
+                  <li><a href="portfolio-mixed-colum-2.html">Portfolio Mixed Style Two</a></li>
+                </ul>
+              </li>
+              <li><a href="portfolio-details.html">Portfolio Details</a></li>
+            </ul>
+          </li>
+          <li><a href="about-us.html">About</a></li>
+          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog</a>
+            <ul class="dropdown-menu">
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="blog-detail.html">Blog Detail</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
+            <ul class="dropdown-menu">                            
+			  <li><a href="about-us.html">About Us</a></li>
+              <li><a href="about-me.html">About Me</a></li>
+              <li><a href="services.html">Services</a></li>
+			  <li><a href="404.html">Error Page</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse --> 
+    </div>
+  </nav>
+  <!-- End Navigation --> 
+</header>
+<!-- End Header --> 
 
-&lt;!-- Page Title --&gt;
-&lt;title&gt;<span style='color:#e6033c;'>Toing – Creative Portfolio HTML Template</span>&lt;/title&gt;
-
-&lt;!-- Favicon Icon --&gt;
-&lt;link rel="shortcut icon" href="<span style='color:#e6033c;'>assets/img/favicon.png</span>" type="image/x-icon"&gt;
-
-&lt;!-- Start Stylesheet --&gt;
-&lt;link href="<span style='color:#e6033c;'>assets/css/bootstrap.min.css</span>" rel="stylesheet" /&gt;
-&lt;link href="<span style='color:#e6033c;'>assets/css/font-awesome.min.css</span>" rel="stylesheet" /&gt;
-&lt;link href="<span style='color:#e6033c;'>assets/css/flaticon-set.css</span>" rel="stylesheet" /&gt;
-&lt;link href="<span style='color:#e6033c;'>assets/css/magnific-popup.css</span>" rel="stylesheet" /&gt;
-&lt;link href="<span style='color:#e6033c;'>assets/css/owl.carousel.min.css</span>" rel="stylesheet" /&gt;
-&lt;link href="<span style='color:#e6033c;'>assets/css/owl.theme.default.min.css</span>" rel="stylesheet" /&gt;
-&lt;link href="<span style='color:#e6033c;'>assets/css/animate.css</span>" rel="stylesheet" /&gt;
-&lt;link href="<span style='color:#e6033c;'>assets/css/bootsnav.css</span>" rel="stylesheet" /&gt;
-&lt;link href="<span style='color:#e6033c;'>assets/css/style.css</span>" rel="stylesheet"&gt;
-&lt;link href="<span style='color:#e6033c;'>assets/css/responsive.css</span>" rel="stylesheet" /&gt;
-
-&lt;!-- Google Web Fonts --&gt;
-&lt;link href="<span style='color:#e6033c;'>https://fonts.googleapis.com/css?family=Open+Sans</span>" rel="stylesheet"&gt;
-&lt;link href="<span style='color:#e6033c;'>https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800</span>" rel="stylesheet"&gt;
-&lt;/head&gt;</pre>
-        </div>
-      </div>       
-      
-<div class="col-md-12" id="Css_Structure">
-<div class="margin-bottom-60">
-  <h3>CSS Structure :-</h3>          
-  <p>You can change it to your <code>style.css</code> / <code>style.css</code> file favorite theme.</p><br>
-  <pre>
-&lt;link rel=<span style='color:#e6033c;'>"style"</span> href=<span style=' color: #e6033c;'>"assets/css/style.css"</span> type="text/css"&gt;  
-</pre>
-</div>
-</div>
-      
-<div class="col-md-12" id="Html_Structure">
-<div class="margin-bottom-60">
-<h3>HTML Structure :-</h3>
-<p>Toing is based on Bootstrap Grid that can help you rapidly develop sites that look beautiful at any size, be it a 17" laptop screen or an iPhone.<br><br>
-   The syntax is simple and it's effective cross browser, but the awesome part is that it also has the flexibility to go mobile like a champ. You can really easily customize all part of site or build new.</p><br>
-<pre>
-&lt;!-- Start Banner --&gt;
-&lt;div class="utf-banner-area-block shadow navbar-transparent typed-text dark-hard text-light bg-fixed" style="background-image: url(assets/img/banner/banner-2.jpg);"&gt;
-  &lt;div class="utf-box-table"&gt;
-    &lt;div class="utf-box-cell"&gt;
-      &lt;div class="container"&gt;
-        &lt;div class="row"&gt;
-          &lt;div class="col-md-10"&gt;
-            &lt;div class="content" data-animation="animated fadeInUpBig"&gt;
-	      &lt;h3&gt;Freelance Digital Designer&lt;/h3&gt;
-              &lt;h1&gt;&lt;span&gt;Toing&lt;/span&gt;Digital Agency.&lt;/h1&gt;
-              &lt;p&gt;There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration.&lt;/p&gt;
-              &lt;a class="btn btn-theme effect btn-md" href="#"&gt;About Me&lt;/a&gt;
-	      &lt;a class="btn btn-light effect btn-md" href="#"&gt;Get In Touch&lt;/a&gt;	
-	    &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;!-- End Banner --&gt; 
-
-<div class="preview_image">
-<img src="img/screen-1.png" alt="" />
-</div>
-
-&lt;!-- Start About --&gt;
-&lt;div class="utf-about-area-item about-me bg-gray default-padding"&gt;
-  &lt;div class="container"&gt;
-    &lt;div class="row"&gt;
-      &lt;div class="col-md-5 left-info"&gt; &lt;img src="assets/img/author-3.jpg" alt="Thumb"&gt; &lt;/div&gt;
-      &lt;div class="col-md-7 right-info"&gt;
-        &lt;h2&gt;HI, I'M Charles Usman UI/UX Designer&lt;/h2&gt;
-        &lt;h4&gt;- It's My Pleasure to Introduce About Myself.&lt;/h4&gt;
-        &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
-        &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.&lt;/p&gt;
-	&lt;ul&gt;
-          &lt;li&gt;Contact Number: +11 124-124-1245&lt;/li&gt;
-          &lt;li&gt;E-Mail Address: &lt;a href="mailto:demo@email.com"&gt;example@gmail.com&lt;/a&gt;&lt;/li&gt;
-	&lt;/ul&gt;
-        &lt;a href="https://www.youtube.com/watch?v=ng2Qj-_zfPk" class="btn btn-theme effect btn-sm popup-youtube"&gt;Take Video&lt;/a&gt; &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;!-- End About --&gt; 
-
-<div class="preview_image">
-<img src="img/screen-2.png" alt="" />
-</div>
-
-&lt;!-- Start Portfolio --&gt;
-&lt;div id="portfolio" class="utf-portfolio-area-item text-light default-padding"&gt;
-  &lt;div class="container"&gt;
-    &lt;div class="utf-portfolio-items-area"&gt;
-      &lt;div class="row"&gt;
-        &lt;div class="col-md-12 utf-portfolio-content"&gt;
-          &lt;div class="mix-item-menu text-left active-border"&gt;
-            &lt;button class="active" data-filter="*"&gt;All&lt;/button&gt;
-            &lt;button data-filter=".development"&gt;Illustrator&lt;/button&gt;
-            &lt;button data-filter=".design"&gt;Creative&lt;/button&gt;
-            &lt;button data-filter=".photography"&gt;Digital&lt;/button&gt;
-            &lt;button data-filter=".Creative Designer"&gt;Minimal&lt;/button&gt;
-            &lt;button data-filter=".video"&gt;Creative&lt;/button&gt;
-          &lt;/div&gt;
-          &lt;!-- End Mixitup Nav--&gt;
-          
-          &lt;div class="row masonary"&gt;
-            &lt;div id="portfolio-grid" class="utf-portfolio-items col-3"&gt;
-              &lt;div class="pf-item Creative Designer photography"&gt;
-                &lt;div class="effect-slide-up"&gt; &lt;a href="portfolio-details.html"&gt; &lt;img src="assets/img/portfolio/cr-1.jpg" alt="thumb"&gt;
-                  &lt;h4&gt;Creative Agency&lt;/h4&gt;
-                  &lt;div class="category"&gt; &lt;span&gt;Design&lt;/span&gt; &lt;span&gt;Creative Designer&lt;/span&gt; &lt;/div&gt;
-                  &lt;/a&gt;
-		&lt;/div&gt;
-              &lt;/div&gt;
-              &lt;div class="pf-item video development"&gt;
-                &lt;div class="effect-slide-up"&gt; &lt;a href="portfolio-details.html"&gt; &lt;img src="assets/img/portfolio/cr-2.jpg" alt="thumb"&gt;
-                  &lt;h4&gt;Creative Agency&lt;/h4&gt;
-                  &lt;div class="category"&gt; &lt;span&gt;Design&lt;/span&gt; &lt;span&gt;Creative Designer&lt;/span&gt; &lt;/div&gt;
-                  &lt;/a&gt;
-		&lt;/div&gt;
-              &lt;/div&gt;
-              &lt;div class="pf-item design photography"&gt;
-                &lt;div class="effect-slide-up"&gt; &lt;a href="portfolio-details.html"&gt; &lt;img src="assets/img/portfolio/cr-3.jpg" alt="thumb"&gt;
-                  &lt;h4&gt;Creative Agency&lt;/h4&gt;
-                  &lt;div class="category"&gt; &lt;span&gt;Design&lt;/span&gt; &lt;span&gt;Creative Designer&lt;/span&gt; &lt;/div&gt;
-                  &lt;/a&gt; 
-		&lt;/div&gt;
-              &lt;/div&gt;
-              &lt;div class="pf-item Creative Designer video"&gt;
-                &lt;div class="effect-slide-up"&gt; &lt;a href="portfolio-details.html"&gt; &lt;img src="assets/img/portfolio/cr-4.jpg" alt="thumb"&gt;
-                  &lt;h4&gt;Creative Agency&lt;/h4&gt;
-                  &lt;div class="category"&gt; &lt;span&gt;Design&lt;/span&gt; &lt;span&gt;Creative Designer&lt;/span&gt; &lt;/div&gt;
-                  &lt;/a&gt; 
-		&lt;/div&gt;
-              &lt;/div&gt;
-              &lt;div class="pf-item design photography"&gt;
-                &lt;div class="effect-slide-up"&gt; &lt;a href="portfolio-details.html"&gt; &lt;img src="assets/img/portfolio/cr-5.jpg" alt="thumb"&gt;
-                  &lt;h4&gt;Creative Agency&lt;/h4&gt;
-                  &lt;div class="category"&gt; &lt;span&gt;Design&lt;/span&gt; &lt;span&gt;Creative Designer&lt;/span&gt; &lt;/div&gt;
-                  &lt;/a&gt; 
-		&lt;/div&gt;
-              &lt;/div&gt;
-              &lt;div class="pf-item Creative Designer design development"&gt;
-                &lt;div class="effect-slide-up"&gt; &lt;a href="portfolio-details.html"&gt; &lt;img src="assets/img/portfolio/cr-6.jpg" alt="thumb"&gt;
-                  &lt;h4&gt;Creative Agency&lt;/h4&gt;
-                  &lt;div class="category"&gt; &lt;span&gt;Design&lt;/span&gt; &lt;span&gt;Creative Designer&lt;/span&gt; &lt;/div&gt;
-                  &lt;/a&gt; 
-		&lt;/div&gt;
-              &lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-          &lt;!-- End Portfoio Row --&gt; 
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;!-- End Portfolio --&gt; 
-
-<div class="preview_image">
-<img src="img/screen-3.png" alt="" />
-</div>
-
-&lt;!-- Start Services --&gt;
-&lt;div class="utf-services-area bg-gray text-center default-padding"&gt;
-  &lt;div class="container"&gt;
-    &lt;div class="row"&gt;
-      &lt;div class="col-md-12"&gt;
-        &lt;div class="utf-services-items utf-services-carousel owl-carousel owl-theme"&gt;
-          &lt;div class="item"&gt; &lt;i class="flaticon-jigsaws"&gt;&lt;/i&gt;
-            &lt;h4&gt;Media Marketing&lt;/h4&gt;
-            &lt;p&gt;Lorem ipsum dolor sit amet, consect incididunt ut labore et d magna aliqua Ut enim ad sed do sit...&lt;/p&gt;
-          &lt;/div&gt;
-          &lt;div class="item"&gt; &lt;i class="flaticon-sketch"&gt;&lt;/i&gt;
-            &lt;h4&gt;UI/UX Design&lt;/h4&gt;
-            &lt;p&gt;Lorem ipsum dolor sit amet, consect incididunt ut labore et d magna aliqua Ut enim ad sed do sit...&lt;/p&gt;
-          &lt;/div&gt;
-          &lt;div class="item"&gt; &lt;i class="flaticon-technical-support"&gt;&lt;/i&gt;
-            &lt;h4&gt;User Experience&lt;/h4&gt;
-            &lt;p&gt;Lorem ipsum dolor sit amet, consect incididunt ut labore et d magna aliqua Ut enim ad sed do sit...&lt;/p&gt;
-          &lt;/div&gt;
-          &lt;div class="item"&gt; &lt;i class="flaticon-layers-1"&gt;&lt;/i&gt;
-            &lt;h4&gt;Creative Designer&lt;/h4&gt;
-            &lt;p&gt;Lorem ipsum dolor sit amet, consect incididunt ut labore et d magna aliqua Ut enim ad sed do sit...&lt;/p&gt;
-          &lt;/div&gt;
-          &lt;div class="item"&gt; &lt;i class="flaticon-growth"&gt;&lt;/i&gt;
-            &lt;h4&gt;Branding Design&lt;/h4&gt;
-            &lt;p&gt;Lorem ipsum dolor sit amet, consect incididunt ut labore et d magna aliqua Ut enim ad sed do sit...&lt;/p&gt;
-          &lt;/div&gt;
-          &lt;div class="item"&gt; &lt;i class="flaticon-network"&gt;&lt;/i&gt;
-            &lt;h4&gt;User Analysis&lt;/h4&gt;
-            &lt;p&gt;Lorem ipsum dolor sit amet, consect incididunt ut labore et d magna aliqua Ut enim ad sed do sit...&lt;/p&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;!-- End Services --&gt; 
-
-<div class="preview_image">
-<img src="img/screen-4.png" alt="" />
-</div>
-
-&lt;!-- Start Blog --&gt;
-&lt;div id="blog" class="utf-blog-area default-padding bottom-less"&gt;
-  &lt;div class="container"&gt;
-    &lt;div class="row"&gt;
-      &lt;div class="utf-site-heading text-center"&gt;
-        &lt;div class="col-md-8 col-md-offset-2"&gt;
-          &lt;h2&gt;Latest &lt;span&gt;Blogs&lt;/span&gt;&lt;/h2&gt;
-          &lt;p&gt;Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class="row"&gt;
-      &lt;div class="utf-blog-items"&gt;
-        &lt;div class="col-md-4 utf-single-item"&gt;
-          &lt;div class="item"&gt;
-            &lt;div class="thumb"&gt; &lt;a href="blog-detail.html"&gt;&lt;img src="assets/img/blog/1.jpg" alt="Thumb"&gt;&lt;/a&gt; &lt;/div&gt;
-            &lt;div class="info"&gt;
-              &lt;div class="date"&gt;
-                &lt;h4&gt;24 Nov, 2020&lt;/h4&gt;
-              &lt;/div&gt;
-              &lt;h4&gt;&lt;a href="blog-detail.html"&gt;The Most Popular Blog Post Top Digital Eorld Places...&lt;/a&gt;&lt;/h4&gt;
-              &lt;div class="meta"&gt;
-                &lt;ul&gt;
-                  &lt;li&gt;&lt;a href="#"&gt;&lt;i class="fas fa-user"&gt;&lt;/i&gt; By, John Doe&lt;/a&gt;&lt;/li&gt;
-                  &lt;li&gt;&lt;a href="#"&gt;&lt;i class="fas fa-comments"&gt;&lt;/i&gt; 48 Comments&lt;/a&gt;&lt;/li&gt;
-                &lt;/ul&gt;
-              &lt;/div&gt;
-              &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni...&lt;/p&gt;
-              &lt;a href="blog-detail.html"&gt;View More &lt;i class="fas fa-angle-right"&gt;&lt;/i&gt;&lt;/a&gt; &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div class="col-md-4 utf-single-item"&gt;
-          &lt;div class="item"&gt;
-            &lt;div class="thumb"&gt; &lt;a href="blog-detail.html"&gt;&lt;img src="assets/img/blog/4.jpg" alt="Thumb"&gt;&lt;/a&gt; &lt;/div&gt;
-            &lt;div class="info"&gt;
-              &lt;div class="date"&gt;
-                &lt;h4&gt;15 Dec, 2020&lt;/h4&gt;
-              &lt;/div&gt;
-              &lt;h4&gt;&lt;a href="blog-detail.html"&gt;The Most Popular Blog Post Top Digital Eorld Places...&lt;/a&gt;&lt;/h4&gt;
-              &lt;div class="meta"&gt;
-                &lt;ul&gt;
-                  &lt;li&gt;&lt;a href="#"&gt;&lt;i class="fas fa-user"&gt;&lt;/i&gt; By, John Doe&lt;/a&gt;&lt;/li&gt;
-                  &lt;li&gt; &lt;a href="#"&gt;&lt;i class="fas fa-comments"&gt;&lt;/i&gt; 55 Comments&lt;/a&gt; &lt;/li&gt;
-                &lt;/ul&gt;
-              &lt;/div&gt;
-              &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni...&lt;/p&gt;
-              &lt;a href="blog-detail.html"&gt;View More &lt;i class="fas fa-angle-right"&gt;&lt;/i&gt;&lt;/a&gt; &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div class="col-md-4 utf-single-item"&gt;
-          &lt;div class="item"&gt;
-            &lt;div class="thumb"&gt; &lt;a href="blog-detail.html"&gt;&lt;img src="assets/img/blog/3.jpg" alt="Thumb"&gt;&lt;/a&gt; &lt;/div&gt;
-            &lt;div class="info"&gt;
-              &lt;div class="date"&gt;
-                &lt;h4&gt;17 Jan, 2020&lt;/h4&gt;
-              &lt;/div&gt;
-              &lt;h4&gt;&lt;a href="blog-detail.html"&gt;The Most Popular Blog Post Top Digital Eorld Places...&lt;/a&gt;&lt;/h4&gt;
-              &lt;div class="meta"&gt;
-                &lt;ul&gt;
-                  &lt;li&gt;&lt;a href="#"&gt;&lt;i class="fas fa-user"&gt;&lt;/i&gt; By, John Doe&lt;/a&gt;&lt;/li&gt;
-                  &lt;li&gt;&lt;a href="#"&gt;&lt;i class="fas fa-comments"&gt;&lt;/i&gt; 48 Comments&lt;/a&gt;&lt;/li&gt;
-                &lt;/ul&gt;
-              &lt;/div&gt;
-              &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni...&lt;/p&gt;
-              &lt;a href="blog-detail.html"&gt;View More &lt;i class="fas fa-angle-right"&gt;&lt;/i&gt;&lt;/a&gt; &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;!-- End Blog --&gt; 
-
-<div class="preview_image">
-<img src="img/screen-5.png" alt="" />
-</div>
-
-&lt;!-- Start Contact --&gt;
-&lt;div class="utf-contact-area default-padding"&gt;
-  &lt;div class="container"&gt;
-    &lt;div class="row"&gt;
-      &lt;div class="col-md-5 address-info left-info"&gt;
-        &lt;h2&gt;My Address Info&lt;/h2&gt;
-        &lt;h4&gt;I Am Available for Freelance Work. Connect with Me via Phone: &lt;a href="#"&gt;+12 125 124 8574&lt;/a&gt; or Email: &lt;a href="#"&gt;admin@example.com&lt;/a&gt;&lt;/h4&gt;
-        &lt;ul&gt;
-          &lt;li&gt;
-	    &lt;i class="fas fa-map-marker-alt"&gt;&lt;/i&gt;
-            &lt;p&gt;Location &lt;span&gt;14 Sti Kilda Road, 1412 New York, USA&lt;/span&gt;&lt;/p&gt;
-          &lt;/li&gt;
-          &lt;li&gt;
-	    &lt;i class="fas fa-envelope-open"&gt;&lt;/i&gt;
-            &lt;p&gt;Email Address &lt;span&gt;&lt;a href="#"&gt;info@example.com&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
-          &lt;/li&gt;
-          &lt;li&gt;
-	    &lt;i class="fas fa-mobile-alt"&gt;&lt;/i&gt;
-            &lt;p&gt;Phone Number &lt;span&gt;&lt;a href="#"&gt;+12 125 124 8574&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
-          &lt;/li&gt;
-	  &lt;li&gt;
-	    &lt;i class="fas fa-globe"&gt;&lt;/i&gt;
-            &lt;p&gt;Website &lt;span&gt;&lt;a href="#"&gt;www.mywebsite.com&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/div&gt;
-      &lt;!-- Start Contact Form --&gt;
-      &lt;div class="col-md-7 right-info utf-contact-form"&gt;
-        &lt;div class="content"&gt;
-          &lt;h2&gt;Contact Us&lt;/h2&gt;
-          &lt;h4&gt;Lorem ipsum dolor sit amet, consect adipisic elit, sed do eiusmod tempor incididunt ut labore et d magna aliqua enim sed do sit.&lt;/h4&gt;
-          &lt;form class="utf-contact-form"&gt;
-	    &lt;div class="row"&gt;
-		&lt;div class="col-md-6"&gt;
-		  &lt;div class="form-group"&gt;
-		    &lt;input class="form-control" id="name" name="name" placeholder="Name" type="text"&gt;
-		  &lt;/div&gt;              
-		&lt;/div&gt;
-		&lt;div class="col-md-6"&gt;
-		  &lt;div class="form-group"&gt;
-		    &lt;input class="form-control" id="email" name="email" placeholder="Email*" type="text"&gt;
-		  &lt;/div&gt;
-		&lt;/div&gt;
-		&lt;div class="col-md-6"&gt;
-		  &lt;div class="form-group"&gt;
-		    &lt;input class="form-control" id="phone" name="phone" placeholder="Phone" type="number"&gt;
-		  &lt;/div&gt;             
-		&lt;/div&gt;
-		&lt;div class="col-md-6"&gt;
-		  &lt;div class="form-group"&gt;
-		    &lt;input class="form-control" id="subject" name="subject" placeholder="Subject" type="text"&gt;
-		  &lt;/div&gt;
-		&lt;/div&gt;
-	    &lt;/div&gt;
-	    &lt;div class="col-md-12"&gt;
-              &lt;div class="row"&gt;
-                &lt;div class="form-group comments"&gt;
-                  &lt;textarea class="form-control" id="comments" name="comments" placeholder="Message..."&gt;&lt;/textarea&gt;
-                &lt;/div&gt;
-              &lt;/div&gt;
-            &lt;/div&gt;
-            &lt;div class="col-md-12"&gt;
-              &lt;div class="row"&gt;
-                &lt;button type="submit" name="submit" id="submit"&gt;Submit&lt;/button&gt;
-              &lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/form&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;!-- End Contact Form --&gt; 
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;!-- End Contact --&gt; 
-
-<div class="preview_image">
-<img src="img/screen-6.png" alt="" />
-</div>
-</pre><br>
-<p>For more information, please visit <a href="https://getbootstrap.com/docs/3.4/css/" target="_blank">http://getbootstrap.com/css/#grid</a></p>
-</div>
-</div>
-      
-<div class="col-md-12" id="Footer_Structure">
-	<div class="margin-bottom-60">
-	<h3>Footer Structure :-</h3>
-<pre>
-&lt;!-- Start Footer --&gt;
-&lt;footer class="text-center bg-dark text-light"&gt;
-  &lt;div class="container"&gt;
-    &lt;div class="row"&gt;
-      &lt;div class="col-md-8 copyright text-left"&gt; 
-	&lt;p&gt;Copyright © 2020 All Rights Reserved.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class="col-md-4 utf-footer-social text-right"&gt;
-        &lt;ul&gt;
-          &lt;li class="facebook"&gt;&lt;a href="#"&gt;&lt;i class="fab fa-facebook-f"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
-          &lt;li class="linkedin"&gt;&lt;a href="#"&gt;&lt;i class="fab fa-linkedin"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
-	  &lt;li class="twitter"&gt;&lt;a href="#"&gt;&lt;i class="fab fa-twitter"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/div&gt; 
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/footer&gt;
-</pre>
-</div>
-</div>
-      <div class="col-md-12" id="JScript">
-        <div class="margin-bottom-60">
-          <h3>Javascript Intialization :-</h3>
-          <p>Core javascript initialization implemented in thorugh object as shown below. This approach enables an easy modular implementation to initialize jquery plugins and other application logics.</p>
-          <p>You can call any of the available functions by objects.</p><br>
-          <pre>
-&lt;!-- jQuery Style --&gt; 
-&lt;script src="<span style="color: #e6033c;">assets/js/jquery-3.2.1.min.js</span>"&gt;&lt;/script&gt; 
-&lt;script src="<span style="color: #e6033c;">assets/js/bootstrap.min.js</span>"&gt;&lt;/script&gt; 
-&lt;script src="<span style="color: #e6033c;">assets/js/equal-height.min.js</span>"&gt;&lt;/script&gt; 
-&lt;script src="<span style="color: #e6033c;">assets/js/jquery.appear.js</span>"&gt;&lt;/script&gt; 
-&lt;script src="<span style="color: #e6033c;">assets/js/jquery.easing.min.js</span>"&gt;&lt;/script&gt; 
-&lt;script src="<span style="color: #e6033c;">assets/js/jquery.magnific-popup.min.js</span>"&gt;&lt;/script&gt; 
-&lt;script src="<span style="color: #e6033c;">assets/js/modernizr.custom.js</span>"&gt;&lt;/script&gt; 
-&lt;script src="<span style="color: #e6033c;">assets/js/owl.carousel.min.js</span>"&gt;&lt;/script&gt; 
-&lt;script src="<span style="color: #e6033c;">assets/js/wow.min.js</span>"&gt;&lt;/script&gt; 
-&lt;script src="<span style="color: #e6033c;">assets/js/isotope.pkgd.min.js</span>"&gt;&lt;/script&gt; 
-&lt;script src="<span style="color: #e6033c;">assets/js/imagesloaded.pkgd.min.js</span>"&gt;&lt;/script&gt; 
-&lt;script src="<span style="color: #e6033c;">assets/js/count-to.js</span>"&gt;&lt;/script&gt; 
-&lt;script src="<span style="color: #e6033c;">assets/js/bootsnav.js</span>"&gt;&lt;/script&gt; 
-&lt;script src="<span style="color: #e6033c;">assets/js/typed.js</span>"&gt;&lt;/script&gt; 
-&lt;script src="<span style="color: #e6033c;">assets/js/YTPlayer.min.js</span>"&gt;&lt;/script&gt; 
-&lt;script src="<span style="color: #e6033c;">assets/js/custom_script.js</span>"&gt;&lt;/script&gt;
-</pre>
+<!-- Start Banner -->
+<div class="utf-banner-area-block heading-only text-normal text-center solid-transparent text-light shadow dark-hard bg-fixed" style="background-image: url(assets/img/banner/banner-4.jpg);">
+  <div class="utf-box-table">
+    <div class="utf-box-cell">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 text-left">
+            <div class="content">
+			  <h3>Freelance Digital Designer</h3>	
+              <h1><span>Toing</span> Digital Agency.</h1>
+              <h4>There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration.</h4>
+			  <a class="btn btn-theme effect btn-md" href="#">About Me</a>
+			  <a class="btn btn-light effect btn-md" href="#">Get In Touch</a>
+            </div>
+          </div>
         </div>
       </div>
-	  
-	  <div class="col-md-12" id="Source_Credits">
-	<div class="margin-bottom-60">
-	  <h3>Source Credits :-</h3>
-	  <p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist.</p><br>
-	  <p>If you have a more general question relating to the themes on ThemeForest, basic HTML/CSS/JavaScript related questions, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p>	  
-	  <p style="text-align:right">Best Regards<br>Toing</p>
-	</div>
-</div>
-      
     </div>
-    <br />
   </div>
 </div>
-</div>
-<!-- JavaScript --> 
-<script type='text/JavaScript' src="js/jquery-1.11.1.min.js"></script> 
-<script type='text/JavaScript' src="js/bootstrap.min.js"></script> 
-<script type='text/JavaScript' src="js/common.js"></script> 
+<!-- End Banner --> 
 
-<!-- Custom JavaScript for the Menu Toggle --> 
-<script>
-    $(document).ready(function() {
-        DocMaster.treeMenu();
-        DocMaster.sideToggle();
-        DocMaster.scrollToElement();
-    });
-    </script>
+<!-- Start Portfolio -->
+<div id="portfolio" class="utf-portfolio-area-item text-light default-padding text-center">
+  <div class="container">
+    <div class="utf-portfolio-items-area">
+      <div class="row">
+        <div class="col-md-12 utf-portfolio-content">
+          <div class="mix-item-menu category-count">
+            <button class="active" data-filter="*">All</button>
+            <button data-filter=".development">Illustrator</button>
+            <button data-filter=".design">Creative</button>
+            <button data-filter=".photography">Digital</button>
+            <button data-filter=".Creative Designer">Minimal</button>
+            <button data-filter=".video">Creative</button>
+          </div>
+          <!-- End Mixitup Nav-->
+          
+          <div class="row magnific-mix-gallery masonary">
+            <div id="portfolio-grid" class="utf-portfolio-items col-3">
+              <div class="pf-item Creative Designer photography">
+                <div class="effect-left-swipe"> <img src="assets/img/portfolio/9.jpg" alt="thumb"> <a href="assets/img/portfolio/9.jpg" class="item utf-popup-link"><i class="fa fa-expand"></i></a>
+                  <div class="icons">
+                    <h4><a href="portfolio-details.html">Creative Design</a></h4>
+                    <div class="cat"> <span>Creative</span> <span>Minimal</span> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="pf-item video development">
+                <div class="effect-left-swipe"> <img src="assets/img/portfolio/12.jpg" alt="thumb"> <a href="assets/img/portfolio/12.jpg" class="item utf-popup-link"><i class="fa fa-expand"></i></a>
+                  <div class="icons">
+                    <h4><a href="portfolio-details.html">Creative Design</a></h4>
+                    <div class="cat"> <span>Creative</span> <span>Minimal</span> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="pf-item design photography">
+                <div class="effect-left-swipe"> <img src="assets/img/portfolio/13.jpg" alt="thumb"> <a href="assets/img/portfolio/13.jpg" class="item utf-popup-link"><i class="fa fa-expand"></i></a>
+                  <div class="icons">
+                    <h4><a href="portfolio-details.html">Creative Design</a></h4>
+                    <div class="cat"> <span>Creative</span> <span>Minimal</span> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="pf-item Creative Designer video">
+                <div class="effect-left-swipe"> <img src="assets/img/portfolio/16.jpg" alt="thumb"> <a href="assets/img/portfolio/16.jpg" class="item utf-popup-link"><i class="fa fa-expand"></i></a>
+                  <div class="icons">
+                    <h4><a href="portfolio-details.html">Creative Design</a></h4>
+                    <div class="cat"> <span>Creative</span> <span>Minimal</span> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="pf-item design photography">
+                <div class="effect-left-swipe"> <img src="assets/img/portfolio/20.jpg" alt="thumb"> <a href="assets/img/portfolio/20.jpg" class="item utf-popup-link"><i class="fa fa-expand"></i></a>
+                  <div class="icons">
+                    <h4><a href="portfolio-details.html">Creative Design</a></h4>
+                    <div class="cat"> <span>Creative</span> <span>Minimal</span> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="pf-item Creative Designer design development">
+                <div class="effect-left-swipe"> <img src="assets/img/portfolio/22.jpg" alt="thumb"> <a href="assets/img/portfolio/22.jpg" class="item utf-popup-link"><i class="fa fa-expand"></i></a>
+                  <div class="icons">
+                    <h4><a href="portfolio-details.html">Creative Design</a></h4>
+                    <div class="cat"> <span>Creative</span> <span>Minimal</span> </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Portfoio Row --> 
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Portfolio --> 
+
+<!-- Start Services -->
+<div class="utf-services-area bg-gray text-center default-padding bottom-less">
+  <div class="container">
+    <div class="row">
+      <div class="utf-site-heading text-center">
+        <div class="col-md-8 col-md-offset-2">
+          <h2>Provide <span>Services</span></h2>
+          <p>Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="utf-services-items">
+        <div class="col-md-4 col-sm-6 equal-height">
+          <div class="item"> <i class="flaticon-jigsaws"></i>
+            <h4>Media Marketing</h4>
+            <p>Lorem ipsum dolor sit amet, consect incididunt ut labore et d magna aliqua Ut enim ad sed do sit...</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 equal-height">
+          <div class="item"> <i class="flaticon-sketch"></i>
+            <h4>UI/UX Design</h4>
+            <p>Lorem ipsum dolor sit amet, consect incididunt ut labore et d magna aliqua Ut enim ad sed do sit...</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 equal-height">
+          <div class="item"> <i class="flaticon-technical-support"></i>
+            <h4>User Experience</h4>
+            <p>Lorem ipsum dolor sit amet, consect incididunt ut labore et d magna aliqua Ut enim ad sed do sit...</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 equal-height">
+          <div class="item"> <i class="flaticon-layers-1"></i>
+            <h4>Creative Designer</h4>
+            <p>Lorem ipsum dolor sit amet, consect incididunt ut labore et d magna aliqua Ut enim ad sed do sit...</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 equal-height">
+          <div class="item"> <i class="flaticon-growth"></i>
+            <h4>Branding Design</h4>
+            <p>Lorem ipsum dolor sit amet, consect incididunt ut labore et d magna aliqua Ut enim ad sed do sit...</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 equal-height">
+          <div class="item"> <i class="flaticon-network"></i>
+            <h4>User Analysis</h4>
+            <p>Lorem ipsum dolor sit amet, consect incididunt ut labore et d magna aliqua Ut enim ad sed do sit...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Services --> 
+
+<!-- Start Fun Factor -->
+<div class="utf-fun-factor-area text-light default-padding bottom-less text-center bg-fixed shadow dark-hard" style="background-image: url(assets/img/banner/banner-6.jpg);">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="col-md-3 col-sm-6 item">
+          <div class="fun-fact">
+            <div class="timer" data-to="2451" data-speed="5000"></div>
+            <span class="medium">Projects Complate</span> 
+		  </div>
+        </div>
+        <div class="col-md-3 col-sm-6 item">
+          <div class="fun-fact">
+            <div class="timer" data-to="1245" data-speed="5000"></div>
+            <span class="medium">Satisfied Clients</span> 
+		  </div>
+        </div>
+        <div class="col-md-3 col-sm-6 item">
+          <div class="fun-fact">
+            <div class="timer" data-to="870" data-speed="5000"></div>
+            <span class="medium">Awards Winners</span> 
+		  </div>
+        </div>
+        <div class="col-md-3 col-sm-6 item">
+          <div class="fun-fact">
+            <div class="timer" data-to="2451" data-speed="5000"></div>
+            <span class="medium">Cup Of Coffee</span> 
+		  </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Fun Factor --> 
+
+<!-- Start Team -->
+<div class="utf-team-area bg-gray carousel-shadow default-padding">
+  <div class="container">
+    <div class="row">
+      <div class="utf-site-heading text-center">
+        <div class="col-md-8 col-md-offset-2">
+          <h2>Our <span>Team</span></h2>
+          <p>Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="utf-team-items utf-team-carousel owl-carousel owl-theme">
+          <div class="item">
+            <div class="thumb"> <img src="assets/img/team/7.jpg" alt="Thumb">
+              <div class="social">
+                <ul>
+                  <li class="facebook"> <a href="#"><i class="fab fa-facebook-f"></i></a> </li>
+                  <li class="twitter"> <a href="#"><i class="fab fa-twitter"></i></a> </li>
+                  <li class="linkedin"> <a href="#"><i class="fab fa-linkedin-in"></i></a> </li>
+                </ul>
+              </div>
+            </div>
+            <div class="info">
+              <h4><a href="#">John Willims</a></h4>
+              <span>CEO & Founder</span>
+              <p>Lorem ipsum dolor sit amet, consect incididunt ut labore et d magna aliqua Ut enim ad sed do sit...</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="thumb"> <img src="assets/img/team/8.jpg" alt="Thumb">
+              <div class="social">
+                <ul>
+                  <li class="facebook"> <a href="#"><i class="fab fa-facebook-f"></i></a> </li>
+                  <li class="twitter"> <a href="#"><i class="fab fa-twitter"></i></a> </li>
+                  <li class="linkedin"> <a href="#"><i class="fab fa-linkedin-in"></i></a> </li>
+                </ul>
+              </div>
+            </div>
+            <div class="info">
+              <h4><a href="#">Kewin Bidwell</a></h4>
+              <span>Creative Web Designer</span>
+              <p>Lorem ipsum dolor sit amet, consect incididunt ut labore et d magna aliqua Ut enim ad sed do sit...</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="thumb"> <img src="assets/img/team/9.jpg" alt="Thumb">
+              <div class="social">
+                <ul>
+                  <li class="facebook"> <a href="#"><i class="fab fa-facebook-f"></i></a> </li>
+                  <li class="twitter"> <a href="#"><i class="fab fa-twitter"></i></a> </li>
+                  <li class="linkedin"> <a href="#"><i class="fab fa-linkedin-in"></i></a> </li>
+                </ul>
+              </div>
+            </div>
+            <div class="info">
+              <h4><a href="#">Kelvin Valerio</a></h4>
+              <span>Senior Developer</span>
+              <p>Lorem ipsum dolor sit amet, consect incididunt ut labore et d magna aliqua Ut enim ad sed do sit...</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="thumb"> <img src="assets/img/team/4.jpg" alt="Thumb">
+              <div class="social">
+                <ul>
+                  <li class="facebook"> <a href="#"><i class="fab fa-facebook-f"></i></a> </li>
+                  <li class="twitter"> <a href="#"><i class="fab fa-twitter"></i></a> </li>
+                  <li class="linkedin"> <a href="#"><i class="fab fa-linkedin-in"></i></a> </li>
+                </ul>
+              </div>
+            </div>
+            <div class="info">
+              <h4><a href="#">John Willims</a></h4>
+              <span>CEO & Founder</span>
+              <p>Lorem ipsum dolor sit amet, consect incididunt ut labore et d magna aliqua Ut enim ad sed do sit...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Team --> 
+
+<!-- Start Cleints -->
+<div class="utf-clients-area default-padding">
+  <div class="container">
+	<div class="row">
+      <div class="utf-site-heading text-center">
+        <div class="col-md-8 col-md-offset-2">
+          <h2>Our <span>Clients</span></h2>
+          <p>Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="clients-items utf-clients-carousel owl-carousel owl-theme">
+          <div class="item"> <a href="#"><img src="assets/img/clients/1.png" alt="Thumb"></a> </div>
+          <div class="item"> <a href="#"><img src="assets/img/clients/2.png" alt="Thumb"></a> </div>
+          <div class="item"> <a href="#"><img src="assets/img/clients/3.png" alt="Thumb"></a> </div>
+          <div class="item"> <a href="#"><img src="assets/img/clients/4.png" alt="Thumb"></a> </div>
+          <div class="item"> <a href="#"><img src="assets/img/clients/5.png" alt="Thumb"></a> </div>
+          <div class="item"> <a href="#"><img src="assets/img/clients/6.png" alt="Thumb"></a> </div>
+          <div class="item"> <a href="#"><img src="assets/img/clients/7.png" alt="Thumb"></a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Cleints -->
+
+<!-- Start Blog -->
+<div id="blog" class="utf-blog-area bg-gray default-padding bottom-less">
+  <div class="container">
+    <div class="row">
+      <div class="utf-site-heading text-center">
+        <div class="col-md-8 col-md-offset-2">
+          <h2>Latest <span>Blogs</span></h2>
+          <p>Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="utf-blog-items">
+        <div class="col-md-4 utf-single-item">
+          <div class="item">
+            <div class="thumb"> <a href="blog-detail.html"><img src="assets/img/blog/3.jpg" alt="Thumb"></a> </div>
+            <div class="info">
+              <div class="date">
+                <h4>24 Nov, 2020</h4>
+              </div>
+              <h4><a href="blog-detail.html">The Most Popular Blog Post Top Digital Eorld Places...</a></h4>
+              <div class="meta">
+                <ul>
+                  <li><a href="#"><i class="fas fa-user"></i> By, John Doe</a></li>
+                  <li><a href="#"><i class="fas fa-comments"></i> 48 Comments</a></li>
+                </ul>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni...</p>
+              <a href="blog-detail.html">View More <i class="fas fa-angle-right"></i></a> </div>
+          </div>
+        </div>
+        <div class="col-md-4 utf-single-item">
+          <div class="item">
+            <div class="thumb"> <a href="blog-detail.html"><img src="assets/img/blog/1.jpg" alt="Thumb"></a> </div>
+            <div class="info">
+              <div class="date">
+                <h4>15 Dec, 2020</h4>
+              </div>
+              <h4><a href="blog-detail.html">The Most Popular Blog Post Top Digital Eorld Places...</a></h4>
+              <div class="meta">
+                <ul>
+                  <li><a href="#"><i class="fas fa-user"></i> By, John Doe</a></li>
+                  <li> <a href="#"><i class="fas fa-comments"></i> 55 Comments</a> </li>
+                </ul>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni...</p>
+              <a href="blog-detail.html">View More <i class="fas fa-angle-right"></i></a> </div>
+          </div>
+        </div>
+        <div class="col-md-4 utf-single-item">
+          <div class="item">
+            <div class="thumb"> <a href="blog-detail.html"><img src="assets/img/blog/4.jpg" alt="Thumb"></a> </div>
+            <div class="info">
+              <div class="date">
+                <h4>17 Jan, 2020</h4>
+              </div>
+              <h4><a href="blog-detail.html">The Most Popular Blog Post Top Digital Eorld Places...</a></h4>
+              <div class="meta">
+                <ul>
+                  <li><a href="#"><i class="fas fa-user"></i> By, John Doe</a></li>
+                  <li><a href="#"><i class="fas fa-comments"></i> 48 Comments</a></li>
+                </ul>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni...</p>
+              <a href="blog-detail.html">View More <i class="fas fa-angle-right"></i></a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Blog --> 
+
+<!-- Start Footer -->
+<footer class="text-center bg-dark text-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 copyright text-left"> 
+		<p>Copyright © 2020 All Rights Reserved.</p>
+	  </div>
+      <div class="col-md-4 utf-footer-social text-right">
+        <ul>
+          <li class="facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li class="linkedin"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+		  <li class="twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+        </ul>
+      </div> 
+    </div>
+  </div>
+</footer>
+
+<!-- jQuery Style --> 
+<script src="assets/js/jquery-3.2.1.min.js"></script> 
+<script src="assets/js/bootstrap.min.js"></script> 
+<script src="assets/js/equal-height.min.js"></script> 
+<script src="assets/js/jquery.appear.js"></script> 
+<script src="assets/js/jquery.easing.min.js"></script> 
+<script src="assets/js/jquery.magnific-popup.min.js"></script> 
+<script src="assets/js/modernizr.custom.js"></script> 
+<script src="assets/js/owl.carousel.min.js"></script> 
+<script src="assets/js/wow.min.js"></script> 
+<script src="assets/js/isotope.pkgd.min.js"></script> 
+<script src="assets/js/imagesloaded.pkgd.min.js"></script> 
+<script src="assets/js/count-to.js"></script> 
+<script src="assets/js/bootsnav.js"></script> 
+<script src="assets/js/typed.js"></script> 
+<script src="assets/js/YTPlayer.min.js"></script> 
+<script src="assets/js/custom_script.js"></script>
 </body>
 </html>
