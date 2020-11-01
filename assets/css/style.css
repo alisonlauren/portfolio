@@ -603,7 +603,7 @@ nav.navbar.bootsnav .widget.instagram ul li img {
 .bootsnav .side .widget.social li.dribbble a {
 	background: #ea4c89 none repeat scroll 0 0;
 }
-.utf-site-heading h2 {
+.utf-site-heading h2, .projects {
 	color: #232323;
 	display: inline-block;
 	font-weight: 700;
@@ -611,19 +611,19 @@ nav.navbar.bootsnav .widget.instagram ul li img {
 	position: relative;
 	text-transform: uppercase;
 }
-.utf-site-heading.clean h2 {
+.utf-site-heading.clean h2, .projects {
 	padding-bottom: 0;
 }
-.utf-site-heading.clean h2 span {
+.utf-site-heading.clean h2 span, .projects {
 	color: #c70039;
 }
-.utf-site-heading h2 span {
+.utf-site-heading h2 span, .projects {
 	color: #c70039;
 }
-.utf-site-heading.barber h2 span {
+.utf-site-heading.barber h2 span, .projects {
 	color: #bc9355;
 }
-.utf-site-heading p {
+.utf-site-heading p, .projects {
 	margin: 0;
 }
 .utf-site-heading.clean h2::after, .utf-site-heading.clean h2::before {
@@ -649,7 +649,7 @@ nav.navbar.bootsnav .widget.instagram ul li img {
 	left: 50%;
 	margin-left: -40px;
 }
-.utf-site-heading h2 span {
+.utf-site-heading h2 span, .projects {
 	color: #c70039;
 }
 .utf-site-heading {
@@ -663,6 +663,8 @@ nav.navbar.bootsnav .widget.instagram ul li img {
 .carousel-shadow .utf-site-heading {
 	margin-bottom: 35px;
 }
+
+
 /* ============================================================== 
   # Page Heading 
 =================================================================== */
@@ -2518,6 +2520,7 @@ to {
 =================================================================== */
 .utf-services-area .utf-services-items .equal-height {
 	margin-bottom: 30px;
+	
 }
 .utf-services-area .utf-services-items .equal-height .item {
 	background: #ffffff none repeat scroll 0 0;
@@ -2568,6 +2571,7 @@ to {
 }
 .utf-services-area .utf-services-items .equal-height .item:hover::after {
 	left: 0;
+
 }
 .utf-services-area .utf-services-items .equal-height .item i, .utf-services-area .utf-services-items .equal-height .item h4, .utf-services-area .utf-services-items .equal-height .item p {
 	-webkit-transition: all 0.35s ease-in-out;
@@ -2581,7 +2585,7 @@ to {
 }
 .utf-services-area .utf-services-items .equal-height .item:hover i{
 	background:#ffffff;
-	color:#c70039;
+	color: blue;
 }
 .utf-services-area .utf-services-carousel .item {
 	text-align: center;
@@ -2589,6 +2593,7 @@ to {
     background: #fff;
     border-radius: 10px;
 	margin:8px 0px;
+	
 	-moz-box-shadow: 0px 3px 8px 0 rgba(0, 0, 0, 0.1);
 	-webkit-box-shadow: 0px 3px 8px 0 rgba(0, 0, 0, 0.1);
 	-o-box-shadow: 0px 3px 8px 0 rgba(0, 0, 0, 0.1);
@@ -2631,6 +2636,7 @@ to {
     top: 50%;
     width: 40px;
 	box-shadow:0px 3px 5px 0 rgba(0, 0, 0, 0.2);
+	
 }
 .utf-services-area .utf-services-carousel.utf-services-items .owl-nav .owl-next {
     left: auto;
@@ -3172,10 +3178,10 @@ footer.bg-light .copyright.border {
 	padding-bottom: 80px;
 }
 footer.demo .copyright {
-	margin-top: 15px;
+	margin-top: 5px;
 }
 .utf-demo-area .comming-soon.item img {
-	opacity: 0.3;
+	opacity: 0.1;
 }
 .utf-banner-area-block.demo-banner {
 	padding: 50px 0;
