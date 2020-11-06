@@ -1069,6 +1069,8 @@ to {
 =================================================================== */
 .utf-portfolio-area-item.default-padding {
 	padding-bottom: 65px;
+	display: flex;
+	
 }
 .mix-item-menu button {
 	background: transparent none repeat scroll 0 0;
